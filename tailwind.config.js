@@ -7,9 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        "site-gradient": "linear-gradient(to bottom, #1773da, #0a387c)",
+      },
+      fontFamily: {
+        primary: ["Lato", "sans-serif"],
+        secondary: ["Poppins", "sans-serif"],
       },
     },
   },
