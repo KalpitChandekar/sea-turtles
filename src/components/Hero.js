@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "./Button";
 const Hero = () => {
   return (
@@ -10,6 +11,15 @@ const Hero = () => {
         stops-each one a crucial chapter in the sea turtle's journey.
       </p>
       <Button />
+      <div className="absolute top-60 left-0">
+        <Image
+          src="/Starfish.png"
+          alt="hero image"
+          width={463}
+          height={596}
+          className="w-96"
+        />
+      </div>
     </div>
   );
 };
