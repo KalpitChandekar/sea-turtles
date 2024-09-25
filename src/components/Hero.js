@@ -11,7 +11,7 @@ const Hero = () => {
         stops-each one a crucial chapter in the sea turtle's journey.
       </p>
       <Button />
-      <div className="absolute top-60 left-0">
+      <div className="absolute top-80 left-0">
         <Image
           src="/Starfish.png"
           alt="hero image"
