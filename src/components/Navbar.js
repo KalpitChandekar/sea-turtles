@@ -8,7 +8,7 @@ const Navbar = () => {
         <Image src="/logo.png" alt="logo" width={153} height={31} />
       </a>
 
-      <ul className="flex gap-16 font-medium text-lg">
+      <ul className="flex gap-16 text-sm font-medium items-center">
         <li>
           <a href="/">Home</a>
         </li>
