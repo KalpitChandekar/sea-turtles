@@ -6,7 +6,7 @@ const Fact1 = () => {
       <div className="flex justify-center w-1/2">
         <Image
           src="/line1.png"
-          alt="facts"
+          alt="line"
           height={316}
           width={466}
           className="w-56 absolute -bottom-60"

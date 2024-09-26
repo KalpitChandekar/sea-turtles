@@ -19,7 +19,7 @@ const Fact2 = () => {
       <div className="w-1/2">
         <Image
           src="/line2.png"
-          alt="facts"
+          alt="line2"
           height={284}
           width={605}
           className="w-44 absolute right-80 -bottom-64"
