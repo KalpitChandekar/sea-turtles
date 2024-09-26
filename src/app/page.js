@@ -11,10 +11,14 @@ const page = () => {
     <main className="">
       <Navbar />
       <Hero />
-      <Fact1 />
+      <section id="fact1">
+        <Fact1 />
+      </section>
       <Fact2 />
       <Fact3 />
-      <Explore />
+      <section id="explore">
+        <Explore />
+      </section>
       <Footer />
     </main>
   );

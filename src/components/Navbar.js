@@ -1,5 +1,6 @@
 import { Menu, Search } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -8,21 +9,23 @@ const Navbar = () => {
         <Image src="/logo.png" alt="logo" width={153} height={31} />
       </a>
 
-      <ul className="flex gap-16 text-sm font-medium items-center">
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/about">Daily Life</a>
-        </li>
-        <li>
-          <a href="/facts">Facts</a>
-        </li>
-        <li className="flex gap-6">
-          <Search />
-          <Menu />
-        </li>
-      </ul>
+      <div className="flex gap-16">
+        <ul className="gap-16 text-sm font-medium items-center hidden md:flex">
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="#fact1">Facts</Link>
+          </li>
+          <li>
+            <Link href="#explore">Explore</Link>
+          </li>
+        </ul>
+        <div className="flex gap-6">
+          <Search className="cursor-pointer"/>
+          <Menu className="cursor-pointer"/>
+        </div>
+      </div>
     </nav>
   );
 };

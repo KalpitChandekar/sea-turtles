@@ -11,7 +11,7 @@ const Explore = () => {
         width={1316}
         className="my-32"
       />
-      <div className="w-[40%]">
+      <div className="md:w-[40%]">
         <h2 className="my-3 text-6xl font-semibold">Explore more ocean life</h2>
         <p className=" ">
           Don't stop at sea turtles—there's a whole ocean full of amazing
